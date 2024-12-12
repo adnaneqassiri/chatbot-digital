@@ -269,6 +269,26 @@ body {
   margin-left: 30px;
 }
 
+@media (max-width: 769px) {
+  .footer .container {
+    flex-direction: column-reverse;
+  }
+  .footer .container img {
+    margin: 0;
+    margin: 15px;
+  }
+  .footer .container .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer .container .context {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 .btn {
   padding: 10px 18px;
   font-size: 14px;
