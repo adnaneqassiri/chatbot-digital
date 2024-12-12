@@ -21,7 +21,8 @@ export default function Home() {
       ) : (
         <div className="if-not-logged">
           <p>
-            Pour utiliser l'application, inscrivez-vous d'abord avec Google.
+            Pour utiliser l&apos;application, inscrivez-vous d&apos;abord avec
+            Google.
           </p>
           <button className="btn" onClick={signInwithGoogle}>
             SIGN IN
