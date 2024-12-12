@@ -13,7 +13,7 @@ function Footer() {
           <p>
             Dans une école moderne, une communication efficace entre étudiants,
             professeurs et responsables est cruciale. Elle améliore la
-            collaboration, favorise l'apprentissage et répond rapidement aux
+            collaboration, favorise lapprentissage et répond rapidement aux
             besoins, créant ainsi un environnement scolaire harmonieux et
             productif.
           </p>
