@@ -525,7 +525,14 @@ $bg-color: #fff;
         transform: scale(1.05);
       }
     }
-
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 20px 0;
+    }
+    .note {
+      margin: 5px 0;
+    }
     /* Sign-Out Button */
     .signout {
       background-color: $second-color;

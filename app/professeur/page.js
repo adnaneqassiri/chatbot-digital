@@ -24,6 +24,7 @@ export default function Page() {
             value={annonce}
             onChange={(e) => setAnnonce(e.target.value)}
           />
+          <p className="note">Annonce publiée avec succès</p>
           <button className="btn" onClick={publierAnnonce}>
             Publier Annonce
           </button>
