@@ -29,14 +29,12 @@ export default function Page() {
           </button>
         </div>
         <section>
-          <h2>Annonces Publiées</h2>
           {annonces.map((a, index) => (
             <div key={index} className="annonce">
               {a}
             </div>
           ))}
         </section>
-        <button onClick={() => signOut(auth)}>Se déconnecter</button>
       </main>
     </div>
   );
