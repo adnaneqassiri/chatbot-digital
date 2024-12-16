@@ -203,9 +203,14 @@ $bg-color: #fff;
   .container {
     height: 100%;
     position: relative;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    h2 {
+      align-self: start;
+      margin-bottom: 20px;
+    }
     .prompt {
       background-color: $main-color;
       padding: 30px 50px;

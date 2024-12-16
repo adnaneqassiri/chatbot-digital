@@ -6,8 +6,9 @@ function Home() {
   return (
     <div className="App">
       <div className="container">
+        <h2>Le chatbot est encore de retablissement.</h2>
         <div className="prompt">
-          <h2>How can I help you today ? </h2>
+          <h2>Comment puis-je vous aider aujourd'hui ?</h2>
           <div className="iyad">
             <input type="text" placeholder="Message NextGen..." />
           </div>

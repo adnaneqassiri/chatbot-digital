@@ -194,9 +194,14 @@ body {
 .App .container {
   height: 100%;
   position: relative;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.App .container h2 {
+  align-self: start;
+  margin-bottom: 20px;
 }
 .App .container .prompt {
   background-color: #001f3f;
