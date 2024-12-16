@@ -1,4 +1,3 @@
-// pages/professeurs.js
 "use client";
 import { useState } from "react";
 import { auth } from "../firebase"; // Firebase config
