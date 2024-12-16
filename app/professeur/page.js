@@ -3,7 +3,7 @@ import { useState } from "react";
 import { auth } from "../firebase"; // Firebase config
 import { signOut } from "firebase/auth";
 
-export default function page() {
+export default function Page() {
   const [annonce, setAnnonce] = useState("");
   const [annonces, setAnnonces] = useState([]);
 
