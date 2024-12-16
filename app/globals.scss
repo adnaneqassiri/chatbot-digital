@@ -421,3 +421,152 @@ $bg-color: #fff;
 .App .container .prompt .iyad {
   padding-top: 80px;
 }
+
+.btn {
+  padding: 8px 20px;
+  height: fit-content;
+  margin: 0;
+  margin-left: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  background-color: $main-color;
+  color: $white-color;
+  border-radius: 3px;
+  border: none;
+}
+
+/* Styling for the Professeurs Page */
+
+/* Variables */
+$white-color: #fff;
+$black-color: #000;
+$main-color: #001f3f;
+$second-color: #0f1702;
+$gray-color: #555555;
+$bg-color: #fff;
+
+/* Prof Page Wrapper */
+.prof {
+  /* Body and Container */
+  .container {
+    padding: 20px;
+    margin: auto;
+    max-width: 1100px;
+    font-family: "Manrope", sans-serif;
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: $main-color;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid $gray-color;
+      resize: none;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        border-color: $main-color;
+        outline: none;
+      }
+    }
+
+    /* Announcements Section */
+    section {
+      margin-top: 30px;
+
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: $main-color;
+      }
+
+      .annonce {
+        background-color: #f5f7fa;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #e3e7ed;
+          transform: scale(1.02);
+        }
+      }
+    }
+
+    /* Publish Button */
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: $main-color;
+      color: $white-color;
+      border: none;
+      margin: 0;
+      margin-top: 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      // margin-top: 15px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: $second-color;
+        transform: scale(1.05);
+      }
+    }
+
+    /* Sign-Out Button */
+    .signout {
+      background-color: $second-color;
+      color: $white-color;
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #d1d9e6;
+        color: #000;
+        outline: 1px solid $main-color;
+      }
+    }
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+
+      h1 {
+        font-size: 28px;
+      }
+
+      textarea {
+        font-size: 14px;
+      }
+
+      button {
+        font-size: 14px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}

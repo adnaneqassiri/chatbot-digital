@@ -410,4 +410,129 @@ body {
 
 .App .container .prompt .iyad {
   padding-top: 80px;
+}
+
+.btn {
+  padding: 8px 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  margin-left: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  background-color: #001f3f;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+
+/* Styling for the Professeurs Page */
+/* Variables */
+/* Prof Page Wrapper */
+.prof {
+  /* Body and Container */
+  /* Mobile responsiveness */
+}
+.prof .container {
+  padding: 20px;
+  margin: auto;
+  max-width: 1100px;
+  font-family: "Manrope", sans-serif;
+  /* Announcements Section */
+  /* Publish Button */
+  /* Sign-Out Button */
+}
+.prof .container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #001f3f;
+}
+.prof .container textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #555555;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+.prof .container textarea:focus {
+  border-color: #001f3f;
+  outline: none;
+}
+.prof .container section {
+  margin-top: 30px;
+}
+.prof .container section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #001f3f;
+}
+.prof .container section .annonce {
+  background-color: #f5f7fa;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.prof .container section .annonce:hover {
+  background-color: #e3e7ed;
+  transform: scale(1.02);
+}
+.prof .container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #001f3f;
+  color: #fff;
+  border: none;
+  margin: 0;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.prof .container button:hover {
+  background-color: #0f1702;
+  transform: scale(1.05);
+}
+.prof .container .signout {
+  background-color: #0f1702;
+  color: #fff;
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.prof .container .signout:hover {
+  background-color: #d1d9e6;
+  color: #000;
+  outline: 1px solid #001f3f;
+}
+@media (max-width: 768px) {
+  .prof .container {
+    padding: 10px;
+  }
+  .prof .container h1 {
+    font-size: 28px;
+  }
+  .prof .container textarea {
+    font-size: 14px;
+  }
+  .prof .container button {
+    font-size: 14px;
+  }
+  .prof .container h2 {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=globals.css.map */

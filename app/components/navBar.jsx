@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { googleProvider, auth } from "../firebase";
 import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+import Link from "next/link";
 
 export default function NavBar() {
   // State to track if the user is logged in
@@ -85,6 +86,13 @@ export default function NavBar() {
               <button onClick={signInwithGoogle}>SIGN WITH GOOGLE</button>
             )}
           </li>
+          <Link
+            className="btn"
+            href="professeur"
+            onClick={() => router.push("/professeurs")}
+          >
+            Espace Professeurs
+          </Link>
         </ul>
       </div>
     </nav>
