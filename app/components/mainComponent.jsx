@@ -8,7 +8,7 @@ function Home() {
       <div className="container">
         <h2>Le chatbot est encore de retablissement.</h2>
         <div className="prompt">
-          <h2>Comment puis-je vous aider aujourd'hui ?</h2>
+          <h2>Comment puis-je vous aider aujourd&apos;hui ?</h2>
           <div className="iyad">
             <input type="text" placeholder="Message NextGen..." />
           </div>
